@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+.landing{
+    background-image: url(../assets/background/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lora', serif;
+}
