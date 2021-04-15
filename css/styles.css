@@ -1,9 +1,35 @@
-html{
-    scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+html {
+  scroll-behavior: smooth;
 }
-.landing{
-    background-image: url(../assets/background/h_img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Lora', serif;
+.landing {
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lora", serif;
+  text-align: center;
+  background-position: center center;
+  padding-top: 5%;
+  color: white;
+  height: 600px;
+  /* margin-top: 30px; */
+}
+.landing h1{
+    font-size: 50px;
+    padding: 3px;
+    margin: 5px;
+}
+.landing p{
+    font-size: 20px;
+    padding: 3px;
+}
+#log{
+    height: 120px;
+    width: 120px;
+    /* margin-top: 12px;
+    margin-bottom: 12px; */
+}
+#mouse_click{
+    margin-top: 10%;
 }
