@@ -12,7 +12,7 @@ html {
   background-position: center center;
   padding-top: 5%;
   color: white;
-  height: 600px;
+  height: 650px;
   /* margin-top: 30px; */
 }
 .landing h1{
@@ -46,4 +46,15 @@ html {
   60%{
     transform: translateY(-54px);
   }
+}
+#about-us{
+  text-align: center;
+  align-items: center;
+}
+#about-us p{
+  font-size: 20px;
+}
+#about{
+  font-family: "Lora", serif;
+  font-size: 55px;
 }
