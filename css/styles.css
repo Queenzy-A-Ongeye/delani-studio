@@ -15,76 +15,85 @@ html {
   height: 650px;
   /* margin-top: 30px; */
 }
-.landing h1{
-    font-size: 50px;
-    padding: 3px;
-    margin: 5px;
+.landing h1 {
+  font-size: 50px;
+  padding: 3px;
+  margin: 5px;
 }
-.landing p{
-    font-size: 20px;
-    padding: 3px;
+.landing p {
+  font-size: 20px;
+  padding: 3px;
 }
-#log{
-    height: 120px;
-    width: 120px;
-    /* margin-top: 12px;
+#log {
+  height: 120px;
+  width: 120px;
+  /* margin-top: 12px;
     margin-bottom: 12px; */
 }
-#mouse_click{
-    margin-top: 10%;
+#mouse_click {
+  margin-top: 10%;
 }
-#mouse_click{
+#mouse_click {
   animation: bounce 2s infinite;
 }
-@keyframes bounce{
-  0%,25%,50%,80%, 100%{
+@keyframes bounce {
+  0%,
+  25%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
-  40%{
+  40% {
     transform: translateY(-45px);
   }
-  60%{
+  60% {
     transform: translateY(-54px);
   }
 }
-#about-us{
+#about-us {
   text-align: center;
   align-items: center;
 }
-#about-us p{
+#about-us p {
   font-size: 20px;
 }
-#about{
+#about {
   font-family: "Lora", serif;
   font-size: 55px;
 }
-.services{
+.services {
   background: rgba(0, 0, 0, 0.6) url("../assets/backgrounds/s_image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
   background-blend-mode: darken;
 }
-#overlay{
+#overlay {
   text-align: center;
   padding-top: 3%;
   color: white;
 }
-#overlay h1{
+#overlay h1 {
   font-size: 50px;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
-#overlay p{
+#overlay p {
   font-size: 20px;
 }
-.heading{
+.heading {
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-size: 55px;
 }
-.title{
-  font-family: 'Courgette', cursive;
+.title {
+  font-family: "Courgette", cursive;
 }
-#title{
+#title {
   font-size: 20px;
+  text-align: center;
+}
+.what-we-do{
+  text-align: center;
+  padding-top: 40px
 }

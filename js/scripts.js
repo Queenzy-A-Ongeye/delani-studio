@@ -6,5 +6,15 @@ $(document).ready(function(){
     $("#DESIGNS").click(function(){
         $("#DESIGNS").toggle("slow")
         $("#DESIGN-img").fadeIn("slow")
-    })
+    });
+});
+$(document).ready(function(){
+    $("#dev-img").click(function(){
+        $("#dev-img").fadeOut("slow").hide('1000')
+        $("#dev").fadeIn("slow")
+    });
+   $("#dev").click(function(){
+    $("#dev").toggle("slow")
+    $("#dev-img").fadeIn("slow")
+   });
 });
