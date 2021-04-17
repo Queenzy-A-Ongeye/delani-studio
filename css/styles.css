@@ -98,3 +98,13 @@ html {
   text-align: center;
   padding-top: 40px
 }
+.portfolio{
+  font-family: "Courgette", cursive;
+  text-align: center;
+}
+.tile{
+  font-size: 55px;
+}
+/* #overlay{
+  font-family: 'Gabriela', serif;
+} */

@@ -28,3 +28,11 @@ $(document).ready(function(){
         $("#product-img").fadeIn("slow")
     });
 });
+
+$(document).ready(function(){
+    $("#work").mouseover(function(){
+      $("#overlay").show();
+    }).mouseout(function(){
+      $("#overlay").hide();
+    });
+  });
