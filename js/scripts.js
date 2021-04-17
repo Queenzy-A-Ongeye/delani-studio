@@ -4,7 +4,7 @@ $(document).ready(function(){
         $("#DESIGNS").fadeIn("slow")
     });
     $("#DESIGNS").click(function(){
-        $("#DESIGNS").fadeOut("slow")
+        $("#DESIGNS").toggle("slow")
         $("#DESIGN-img").fadeIn("slow")
     })
 });
