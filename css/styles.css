@@ -67,7 +67,7 @@ html {
 }
 #overlay{
   text-align: center;
-  padding-top: 5%;
+  padding-top: 3%;
   color: white;
 }
 #overlay h1{
@@ -75,5 +75,16 @@ html {
   font-family: 'Lora', serif;
 }
 #overlay p{
+  font-size: 20px;
+}
+.heading{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 55px;
+}
+.title{
+  font-family: 'Courgette', cursive;
+}
+#title{
   font-size: 20px;
 }
