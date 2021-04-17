@@ -30,9 +30,23 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#work").mouseover(function(){
-      $("#overlay").show();
+    $("#work0").mouseover(function(){
+      $("#overlay0").show();
     }).mouseout(function(){
-      $("#overlay").hide();
+      $("#overlay0").hide();
     });
   });
+  $(document).ready(function(){
+      $("#work1").mouseover(function(){
+          $("#overlay1").show();
+      }).mouseout(function(){
+          $("#overlay1").hide();
+      });
+  });
+$(document).ready(function(){
+    $("#work2").mouseover(function(){
+        $("#overlay2").show();
+    }).mouseout(function(){
+        $("#overlay2").hide();
+    });
+});
