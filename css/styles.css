@@ -98,40 +98,106 @@ html {
   text-align: center;
   padding-top: 40px;
 }
-#DESIGNS, #product, #dev{
+#DESIGNS,
+#product,
+#dev {
   display: none;
-  font-family: Helvetica,Arial,sans-serif;
+  /* font-family: Helvetica,Arial,sans-serif; */
   font-size: 16px;
 }
 .portfolio {
   font-family: "Courgette", cursive;
   text-align: center;
+  display: initial;
 }
-.portfolio h2{
+.portfolio h2 {
   font-size: 55px;
 }
 .tile {
   font-size: 55px;
 }
-
+/* #port{
+  position: fixed;
+} */
 .col-md-3 p {
   padding-top: 3%;
   font-size: 25px;
 }
-.col-md-3 img{
+.col-md-3 img {
   max-height: 100%;
   max-width: 100%;
   padding: 8px;
 }
-#overlay0,#overlay1, #overlay2, #overlay3, #overlay4,#overlay5, #overlay6,#overlay7,#overlay8{
+#overlay0,
+#overlay1,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
   top: -50%;
   left: -0.2%;
   color: black;
   position: relative;
   font-size: 30px;
-  padding-top: 40%;
-  padding-bottom: 40%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   background-color: rgba(253, 249, 249, 0.726);
   background-blend-mode: lighten;
+}
+.contact {
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  background-size: cover;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 8%;
+}
+.contact h2 {
+  font-size: 55px;
+  font-family: "Courgette", cursive;
+  color: white;
+}
+#form {
+  width: 700px;
+  max-width: 100%;
+  left: 50%;
+  /* transform: translate(-60%); */
+  /* position: relative; */
+  text-align: center;
+}
+#comment {
+  color: white;
+  font-size: 20px;
+ font-family: 'Dancing Script', cursive;
+  background: transparent;
+}
 
+input[type="email"] {
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  background-color: transparent;
+}
+
+input[type="text"] {
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  background: transparent;
+}
+#social{
+  text-align: center;
+}
+#social img{
+  padding: 5px;
+}
+.con{
+  text-align: center;
+  font-family: "Courgette", cursive;
 }
