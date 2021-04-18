@@ -21,4 +21,4 @@ To access this project on your local files, you can clone it using these steps
 ### Live Site
 View [Live] (https://github.com/Queen-01/delani-studio.git)
 ### Licence
-This project is under the  [MIT] licence
+This project is under the  [MIT](license) license
