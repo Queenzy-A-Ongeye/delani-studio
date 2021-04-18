@@ -98,9 +98,17 @@ html {
   text-align: center;
   padding-top: 40px;
 }
+#DESIGNS, #product, #dev{
+  display: none;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 16px;
+}
 .portfolio {
   font-family: "Courgette", cursive;
   text-align: center;
+}
+.portfolio h2{
+  font-size: 55px;
 }
 .tile {
   font-size: 55px;
@@ -108,16 +116,22 @@ html {
 
 .col-md-3 p {
   padding-top: 3%;
-  font-size: 20px;
+  font-size: 25px;
 }
-#overlay0,
-#overlay1, #overlay2{
-  top: -70%;
-  left: -10%;
+.col-md-3 img{
+  max-height: 100%;
+  max-width: 100%;
+  padding: 8px;
+}
+#overlay0,#overlay1, #overlay2, #overlay3, #overlay4,#overlay5, #overlay6,#overlay7,#overlay8{
+  top: -50%;
+  left: -0.2%;
   color: black;
   position: relative;
   font-size: 30px;
-  padding-top: 50%;
-  /* background-color: rgba(128, 128, 128, 0.493);
-  background-blend-mode: lighten; */
+  padding-top: 40%;
+  padding-bottom: 40%;
+  background-color: rgba(253, 249, 249, 0.726);
+  background-blend-mode: lighten;
+
 }
